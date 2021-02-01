@@ -1,2 +1,2 @@
 #!/bin/sh
-cat -n /etc/shadow |grep panicjens > testfile
+sudo cat -n /etc/shadow |grep panicjens > testfile
