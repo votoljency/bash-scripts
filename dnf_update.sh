@@ -1,2 +1,2 @@
 #!/bin/sh
-dnf -y update
+sudo dnf -y update
