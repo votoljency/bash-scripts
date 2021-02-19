@@ -83,4 +83,5 @@ install_mysql(){
         #add path
         echo "export PATH=$PATH:$INSTALL_DIR/bin" >> /etc/profile
         source /etc/profile
-}install_mysql
+}
+install_mysql
