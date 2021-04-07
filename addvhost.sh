@@ -45,7 +45,7 @@ if [ ! -d "$absolute_doc_root" ]; then
 
 	# create directory
 	`mkdir "$absolute_doc_root/"`
-	`chown -R $SUDO_USER:staff "$absolute_doc_root/"`
+	`chown -R $SUDO_USER:fred "$absolute_doc_root/"`
 
 	# create index file
 	indexfile="$absolute_doc_root/index.html"
